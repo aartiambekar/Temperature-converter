@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{ 
+    display: flex; 
+    position: relative; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap-reverse; 
+    gap:10px;  
+} 
+.Temperature-icon{ 
+    font-size: 45px; 
+    color:#fff;
+}
+h1{ 
+    color:#fff; 
+    letter-spacing: 1.2px; 
+    font-size: 30px;
+} 
+.container{ 
+    max-width: 500px; 
+    background-color:#003333;  
+    border-radius: 8px;
+    box-shadow:0px 0px 15px 3px rgba(0,0,0,0.4) ; 
+    font-family: sans-serif; 
+    padding: 20px;
+}
+.wrapper .container{
+    padding: 10px;
+}
+
+.wrapper .container label{
+    font-size: 20px;
+}
+
+.wrapper .container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+} 
